@@ -17,13 +17,18 @@ header {
 	height: 100%;
 }
 .wrap {
-	width: 900px;
+	width: 940px;
 	margin: 0 auto;
 }
 .nav-line {
 	position: fixed;
 	height: 55px;
-	padding: 15px;
+	width: inherit;
+	padding: 15px 0;
+	/*background-image: url(images/header-overlay.png);*/
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .nav-logo {
 	float: left;
@@ -40,8 +45,42 @@ header {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	float: left;
-	margin-left: 15px;
+	margin: -3px 0 0 15px;
 }
 .nav-list {
 	float: right;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
 }
+.nav-list li {
+	display: inline-block;
+	list-style-type: none;
+	height: 55px;
+	line-height: 55px;
+	text-transform: uppercase;
+	padding: 0 8px;
+}
+.nav-list li:last-child {
+	padding-right: 0;
+}
+.nav-list a {
+	color: white;
+	text-decoration: none;
+	transition: all ease .8s;
+}
+.nav-list a:hover {
+	color: #00e0d0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
