@@ -4,10 +4,9 @@
 }
 body {
 	min-height: 5378px;
-	width: 1600px;
 }
 header {
-	width: 1600px;
+	/*width: 1600px;*/
 	height: 670px;
 	background-image: url(images/header-image.png);
 	background-position: center;
@@ -23,16 +22,16 @@ header {
 	background-repeat: no-repeat;
 }
 .wrap {
-	width: 940px;
+	display: block;
+	width: 100%;
+	max-width: 940px;
 	margin: 0 auto;
+	text-align: center;
 }
 .nav-line {
 	position: fixed;
-	height: 55px;
-	width: inherit;
+	width: 940px;
 	padding: 15px 0;
-	overflow: hidden;
-	background-repeat: no-repeat;
 }
 .nav-logo {
 	float: left;
@@ -104,7 +103,28 @@ h1 {
 	text-align: center;
 	line-height: 150%;
 }
-
+button {
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	color: #00e0d0;
+	width: 300px;
+	height: 60px;
+	border: 2px solid #00e0d0;
+	background: none;
+}
+.points div {
+	width: 8px;
+	height: 8px;
+	border: 2px solid #00e0d0;
+	border-radius: 100%;
+	display: inline-block;
+}
+.active-point {
+	background-color: #00e0d0;
+}
+.point {
+	background-color: #322a54;
+}
 
 
 
