@@ -46,6 +46,7 @@ header {
 .nav-logo p {
 	font-size: 30px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	letter-spacing: 2px;
 	display: inline-block;
 	float: left;
@@ -84,6 +85,7 @@ header {
 }
 h1 {
 	font-family: 'Playfair Display', serif;
+	font-weight: 900;
 	text-transform: capitalize;
 	font-size: 32px;
 	color: #fff;
@@ -92,39 +94,175 @@ h1 {
 .underline {
 	height: 1px;
 	width: 50px;
-	margin: 0 auto;
+	margin: 15px auto;
+}
+.hero .underline {
 	background-color: #00e0d0;
-	margin-top: 15px;
 }
 .underheading {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	font-size: 14px;
 	color: #fff;
 	text-align: center;
 	line-height: 150%;
 }
-button {
+.button-learn {
 	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 	color: #00e0d0;
-	width: 300px;
-	height: 60px;
+	width: 118px;
+	height: 38px;
 	border: 2px solid #00e0d0;
+	border-radius: 1px;
 	background: none;
+}
+.hero button {
+	margin: 50px 0 125px;
+}
+.points {
+	padding-bottom: 70px;
 }
 .points div {
 	width: 8px;
 	height: 8px;
-	border: 2px solid #00e0d0;
 	border-radius: 100%;
 	display: inline-block;
 }
 .active-point {
 	background-color: #00e0d0;
+	border: 1px solid #00e0d0;
 }
 .point {
-	background-color: #322a54;
+	background-color: none;
+	border: 1px solid grey;
 }
+.story {
+	height: 420px;
+}
+.big-logo {
+	padding: 70px 85px 0 60px;
+	float: left;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+}
+.story-white-block {
+	text-align: left;
+}
+.story-white-block h2 {
+	padding-top: 70px;
+}
+.story-white-block p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	padding-top: 28px;
+	letter-spacing: 1px;
+}
+.story-white-block button {
+	margin-top: 30px;
+}
+.video-story {
+	height: 550px;
+	background-image: url(images/city.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.circle-button {
+	width: 94px;
+	height: 94px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 200px 0 30px;
+	line-height: 94px;
+	cursor: pointer;
+}
+.video span {
+	color: #fff;
+	font-size: 50px;
+	display: block;
+	margin: 3px 0 0 3px;
+}
+.video p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.expertise {
+	text-align: center;
+	height: 754px;
+}
+.expertise h2 {
+	padding-top: 70px;
+}
+.expertise p {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.expertise .underline {
+	background-color: #c6c4c9;
+	margin-bottom: 50px;
+}
+.expertise table {
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	height: 500px;
+}
+.expertise td {
+	width: 33.333%;
+	height: 49.99%;
+	padding: 40px 31px;
+}
+.expertise tr:first-child td:first-child {
+	border-bottom: 1px solid #c6c4c9;
+	border-right: 1px solid #c6c4c9;
+}
+.expertise tr:first-child td:nth-child(3) {
+	border-left: 1px solid #c6c4c9;
+	border-bottom: 1px solid #c6c4c9;
+}
+.expertise tr:last-child td:nth-child(2) {
+	border: 1px solid #c6c4c9;
+	border-bottom: none;
+}
+.expertise-icon {
+	height: 50px;
+}
+h3 {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	margin-top: 25px;
+}
+.expertise table p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
 
 
 
