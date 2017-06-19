@@ -95,6 +95,7 @@ h1 {
 	height: 1px;
 	width: 50px;
 	margin: 15px auto;
+	padding: .1px;
 }
 .hero .underline {
 	background-color: #00e0d0;
@@ -119,6 +120,10 @@ h1 {
 	border: 2px solid #00e0d0;
 	border-radius: 1px;
 	background: none;
+	cursor: pointer;
+}
+.button-learn:focus {
+	outline: 0;
 }
 .hero button {
 	margin: 50px 0 125px;
@@ -214,7 +219,7 @@ h2 {
 	margin-top: 10px;
 }
 .expertise .underline {
-	background-color: #c6c4c9;
+	background-color: darkgrey;
 	margin-bottom: 50px;
 }
 .expertise table {
@@ -257,10 +262,111 @@ h3 {
 	letter-spacing: 1px;
 	margin-top: 20px;
 }
-
-
-
-
+#team {
+	height: 710px;
+	background-image: url(images/team-image.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#team h2 {
+	padding: 72px 0 10px;
+}
+#team .underline {
+	background-color: #fff;
+	margin-bottom: 45px;
+}
+#team .button-learn {
+	width: 138px;
+}
+.team-photos {
+	margin: 0 -0.7979%;
+	font-size: 0;
+}
+.member-box {
+	display: inline-block;
+	border: 1px solid #fff;
+	height: 306px;
+	width: 23.17%;
+	background: none;
+	margin: 0 0.7979%;
+}
+.member-icon {
+	background-color: #fff;
+	background-image: url();
+	height: 228px;
+	width: 100%;
+}
+.member-info {
+	text-align: center;
+}
+.member-name, .member-job {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.member-name {
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 15px;
+}
+.member-job {
+	font-size: 13px;
+	font-weight: 100;
+	padding-top: 8px;
+}
+#team .underheading {
+	padding: 70px 0 25px;
+}
+.upperline {
+	padding: 70px 0;
+}
+.upperline h2 {
+	float: left;
+}
+.upperline p {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.upperline span {
+	display: inline-block;
+	transform: scale(1.2,1.7);
+	float: right;
+	margin: -2px 0 0 8px;
+}
+.upperline:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.work-pictures {}
+.work-picture {
+	float: left;
+	display: inline-block;
+	font-size: 0;
+	height: 200px;
+	width: 16.6666667%;
+}
+.work-picture:nth-child(4n+1) {
+	background-color: grey;
+}
+.work-picture:nth-child(4n+2) {
+	background-color: darkgrey;
+}
+.work-picture:nth-child(4n+3) {
+	background-color: lightgrey;
+}
+.work-picture:nth-child(4n+4) {
+	background-color: dimgrey;
+}
+.works .button-learn {
+	margin-top: 70px;
+}
 
 
 
