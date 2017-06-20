@@ -32,6 +32,7 @@ header {
 	position: fixed;
 	width: 940px;
 	padding: 15px 0;
+	z-index: 1000;
 }
 .nav-logo {
 	float: left;
@@ -136,6 +137,12 @@ h1 {
 	height: 8px;
 	border-radius: 100%;
 	display: inline-block;
+	cursor: pointer;
+	transition: all ease .2;
+}
+.points div:hover {
+	border: 1px solid cyan;
+	box-shadow: 0 0 2px powderblue;
 }
 .active-point {
 	background-color: #00e0d0;
@@ -365,8 +372,191 @@ h3 {
 	background-color: dimgrey;
 }
 .works .button-learn {
-	margin-top: 70px;
+	margin: 70px 0;
 }
+.people-say {
+	height: 500px;
+	background-image: url(images/peoplesay-image.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.people-say p {
+	color: #fff;
+}
+.quotemark {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	padding-top: 50px;
+	font-size: 100px;
+}
+.people-say-text {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: -25px auto 25px;
+	letter-spacing: 1px;
+	width: 840px;
+}
+.quotes-choice {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	width: 390px;
+	margin: 40px auto 60px;
+}
+.quotes-choice img {
+	vertical-align: middle;
+}
+.quotes-choice div {
+	display: inline-block;
+	height: 45px;
+	margin: 0 3px;
+}
+.quotes-choice div:nth-child(3) {
+	height: 70px;
+}
+.quotes-choice:after {
+	content: '\232A';
+	opacity: .6;
+	transform: scale(1.6,1.0);
+	font-size: 30px;
+	position: absolute;
+	top: 19px;
+	right: 0px;
+	cursor: pointer;
+}
+.quotes-choice:before {
+	content: '\2329';
+	opacity: .6;
+	transform: scale(1.6,1.0);
+	font-size: 30px;
+	position: absolute;
+	top: 19px;
+	left: 0px;
+	cursor: pointer;
+}
+.contact {
+	height: 510px;
+	padding: 70px 0;
+}
+.contact-us {
+	float: left;
+	width: 48%;
+	text-align: left;
+}
+.contact-us input {
+	outline: 0;
+}
+.contact-us h2 {
+	padding-bottom: 15px;
+}
+.contact-us input:nth-child(-n+4) {
+	display: block;
+	padding: 16px;
+	width: 92%;
+	margin: 11px 0;
+}
+.contact-us textarea {
+	height: 166px;
+	display: block;
+	padding: 16px;
+	width: 92.5%;
+	margin: 11px 0 20px;
+	border: 1px solid lightgrey;
+	outline: 0;
+}
+.happy-clients {
+	float: right;
+	width: 40%;
+	text-align: left;
+}
+.happy-clients h2 {
+	padding-bottom: 30px;
+}
+.label-row:last-child img {
+	vertical-align: bottom;
+	margin-top: 22px;
+}
+.label {
+	display: inline-block;
+	height: 70px;
+	width: 184.2px;
+	text-align: center;
+}
+.contact img {
+	vertical-align: middle;
+}
+.happy-clients:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.footerdiv {
+	height: 400px;
+	background-image: url(images/footer-image.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.footer-info {
+	padding-top: 70px;
+}
+.description {
+	float: left;
+	width: 300px;
+	padding-right: 30px;
+}
+.description .nav-logo {
+	float: none;
+}
+.footer-info .underheading {
+	text-align: left;
+	padding-top: 15px;
+	letter-spacing: 1px;
+}
+.footer-info .member-name {
+	padding-bottom: 20px;
+	text-align: left;
+}
+.phone-address {
+	float: left;
+	width: 285px;
+	padding-right: 30px;
+}
+.phone-address span {
+	display: inline-block;
+	float: left;
+}
+.phone-address .address-icon {
+	padding: 15px 15px 0 0;
+}
+.address-info:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.footer-nav-line {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+}
+.footer-nav-line li {
+	text-transform: uppercase;
+}
+.subscribe {
+	float: right;
+}
+.subscribe input {
+	background: none;
+	padding: 16px;
+	border: 1px solid lightgrey;
+	width: 210px;
+}
+
+/*in label-rows floats left and right*/
+
 
 
 
